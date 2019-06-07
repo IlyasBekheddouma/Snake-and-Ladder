@@ -1,0 +1,13 @@
+.white-pane{
+    -fx-background-color: #fb8860;
+}
+
+.slir {
+    -fx-background-color: #fbab60;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.4),5,0.0,0,1);
+}
+
+.bt {
+    -fx-background-color:  #CD1616;
+    -fx-background-radius: 30;
+}

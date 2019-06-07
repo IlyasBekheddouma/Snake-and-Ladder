@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="988.0" styleClass="white-pane" stylesheets="@../style/Snake.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ibaa_snake.Home_Controller">
+   <children>
+      <ImageView fx:id="iv0" fitHeight="700.0" fitWidth="707.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Pictures/Snake/depositphotos_176897214-stock-illustration-ladder-snakes-gamefunny-frame-for.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iv1" fitHeight="32.0" fitWidth="32.0" layoutX="35.0" layoutY="635.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Pictures/Snake/superball.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iv2" fitHeight="32.0" fitWidth="32.0" layoutX="5.0" layoutY="665.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Pictures/Snake/pokeball.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="709.0" layoutY="5.0" prefHeight="689.0" prefWidth="272.0" styleClass="slir">
+         <children>
+            <Label layoutX="8.0" layoutY="17.0" text="Snake And Ladder">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Separator layoutX="20.0" layoutY="64.0" prefHeight="0.0" prefWidth="232.0" style="-fx-background-color: #FFE692;" />
+            <Separator layoutX="20.0" layoutY="14.0" prefHeight="0.0" prefWidth="232.0" style="-fx-background-color: #FFE692;" />
+            <ImageView fx:id="iv3" fitHeight="220.0" fitWidth="262.0" layoutX="27.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/Snake/D1.png" />
+               </image>
+            </ImageView>
+            <Separator layoutX="20.0" layoutY="310.0" prefHeight="0.0" prefWidth="232.0" style="-fx-background-color: #FFE692;" />
+            <JFXButton fx:id="bt" buttonType="RAISED" layoutX="38.0" layoutY="337.0" onAction="#turn" prefHeight="45.0" prefWidth="203.0" styleClass="bt" text="Player 1 : Turn" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="38.0" layoutY="409.0" onAction="#New_Game" prefHeight="45.0" prefWidth="203.0" styleClass="bt" text="New Game" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXButton>
+            <ImageView fx:id="II" fitHeight="33.0" fitWidth="27.0" layoutX="85.0" layoutY="647.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/LOGO/icons8-cerclé-i-filled-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="IB" fitHeight="27.0" fitWidth="27.0" layoutX="112.0" layoutY="647.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/LOGO/icons8-xbox-b-filled-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="I2" fitHeight="27.0" fitWidth="27.0" layoutX="139.0" layoutY="647.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/LOGO/icons8-cerclé-2-filled-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="IA" fitHeight="27.0" fitWidth="27.0" layoutX="166.0" layoutY="647.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/LOGO/icons8-apple-app-store-filled-50.png" />
+               </image>
+            </ImageView>
+            <Separator layoutX="94.0" layoutY="638.0" prefHeight="3.0" prefWidth="91.0" style="-fx-background-color: #FFE692;" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
